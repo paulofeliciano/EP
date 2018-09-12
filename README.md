@@ -1,5 +1,6 @@
 # How to Run
 Put all the content inside a folder named "EP". Or just rename "EP-master" to "EP".
+Then run index.php.
 
 # Notes
 Contact form requires a mailserver set up.
