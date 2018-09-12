@@ -61,11 +61,6 @@ div > h2 {
 	color: @textcolor;
 }
 
-// CONTACT
-#contact {
-	border: 2px dotted gainsboro;
-}
-
 // GALLERY
 div.gallery {
 	  min-height: 360px;
@@ -128,3 +123,13 @@ input:focus, textarea:focus {
 	cursor: pointer;
 }
 
+
+// ADJUST ANCHOR LINKS PADDING
+.adjust::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -80px; 
+  height: 80px; 
+  visibility: hidden; 
+  pointer-events: none;
+}

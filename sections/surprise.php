@@ -1,5 +1,5 @@
 <!-- SURPRISE US -->
-<div id="surprise" class="revealonscroll"><br />
+<div id="surprise" class="adjust revealonscroll"><br />
   <hr><br />
   <h2 align="center">Extra! Extra! Read All About It!</h2>
   <p align="center">

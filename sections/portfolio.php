@@ -1,5 +1,5 @@
 <!-- PORTFOLIO -->
-<div id="portfolio" class="revealonscroll">
+<div id="portfolio" class="adjust revealonscroll">
   <h2 align="center">Portfolio</h2>
   <p align="center">
     A list of some of the projects that I developed for the past 2 years.

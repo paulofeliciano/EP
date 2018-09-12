@@ -1,5 +1,5 @@
 <!-- ABOUT ME -->
-<div id="about" class="revealonscroll">
+<div id="about" class="adjust revealonscroll">
   <h2 align="center">About Me</h2>
   <p align="center">
     Hey! I am Juan Paulo Feliciano. A Web Developer, Gym Junkie, and a Tech Enthusiast. <br />

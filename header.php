@@ -8,7 +8,8 @@
   <meta name="author" content="Paulo Feliciano">
   <meta name="description" content="Why Paulo is a good fit for Elevation Partners">
   <meta name="keywords" content="paulo,feliciano,elevation,partners,hireme">
-  <link rel="shortcut icon" href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . "/ep/favicon.ico" ?>" type="image/vnd.microsoft.icon">
+  <link rel="shortcut icon" type="image/png" href="http://example.com/favicon.png"/>
+  <link rel="shortcut icon" href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . "/ep/img/favicon.ico" ?>">
  
   <!--Vendors-->
   <link rel="stylesheet" href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . "/ep/vendors/css/bootstrap.min.css" ?>">
@@ -32,20 +33,20 @@
   <!-- NAVBAR CONTENT -->
   <div class="collapse navbar-collapse navbar-collapse collapse w-100 order-3 dual-collapse2 " id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link smoothscroll" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#why">Why</a>
+        <a class="nav-link smoothscroll" href="#why">Why</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-link smoothscroll" href="#portfolio">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link smoothscroll" href="#contact">Contact</a>
       </li>
 
     </ul>

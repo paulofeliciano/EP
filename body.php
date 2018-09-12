@@ -1,5 +1,5 @@
 <!-- JUMBOTRON AREA -->
-<div class="jumbotron custom-jumbo">
+<div id="home" class="jumbotron custom-jumbo">
 	<div class="title revealonscroll">PAULO FELICIANO</div>
 	<div class="sub revealonscroll">WEB DEVELOPER</div>
 </div>

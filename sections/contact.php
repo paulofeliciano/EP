@@ -1,5 +1,5 @@
 <!-- CONTACT ME -->
-<div id="contact" class="revealonscroll" >
+<div id="contact" class="adjust revealonscroll" >
   <h2 align="center">Contact Me</h2>
   <p align="center">
     Mobile: 0917-715-5676<br />
