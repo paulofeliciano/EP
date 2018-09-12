@@ -4,8 +4,9 @@
   <p align="center">
     I have been in the game for two years now. I have had my fair share of projects with medium to high level difficulty.
     I also have a lot of experience in being a full-stack developer. E-commerce is one of my specialties.
-    I handled a few e-commerce sites running on Wordpress' Woocommerce and Magento.
-    <br>
+    I handled a few e-commerce sites running on Wordpress' WooCommerce and Magento.
+    <br><br>
+    I have always been reliable. Some of my colleagues call me meticulous because of how I make sure that every single detail on the website is in great condition.
   </p>
   <p align="center">Here's a list of my skills:</p>
     <ul>

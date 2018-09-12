@@ -2,7 +2,7 @@
 
 This is an exam developed solely by Paulo Feliciano
 
-Tools used:
+# Tools used:
 PHP
 CSS / LESS
 Bootstrap

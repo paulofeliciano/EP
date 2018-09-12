@@ -10,6 +10,10 @@ footer {
 footer > a {
   color: #ffffff;
 }
+footer > a :hover {
+  transition-duration: 0.4s;
+  color: #1c717d;
+}
 div > h2 {
   color: #1c3b4f;
   font-size: 4vh;
