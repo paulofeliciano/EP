@@ -21,9 +21,7 @@
         <textarea  name="comments" maxlength="1000" rows="6"  placeholder="Message" required></textarea><br/>
         <input type="submit" class="custom-button" value="Submit">
       </div>
-    </div>
-
-
+      </div>
     </form>
 
   </p>

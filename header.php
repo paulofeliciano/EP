@@ -37,6 +37,9 @@
   <div class="collapse navbar-collapse navbar-collapse collapse w-100 order-3 dual-collapse2 " id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
+        <a class="nav-link smoothscroll" href="index.php">Save Our Oceans</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link smoothscroll" href="#about">About</a>
       </li>
       <li class="nav-item">
