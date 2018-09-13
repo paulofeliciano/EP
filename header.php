@@ -8,7 +8,6 @@
   <meta name="author" content="Paulo Feliciano">
   <meta name="description" content="Why Paulo is a good fit for Elevation Partners">
   <meta name="keywords" content="paulo,feliciano,elevation,partners,hireme">
-  <link rel="shortcut icon" type="image/png" href="http://example.com/favicon.png"/>
   <link rel="shortcut icon" href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . "/ep/img/favicon.ico" ?>">
 
   <!--Vendors-->
@@ -54,15 +53,16 @@
 
     </ul>
   </div>
-<?php } else {  ?>
+
+  <?php } else {  ?>
   <div class="collapse navbar-collapse navbar-collapse collapse w-100 order-3 dual-collapse2 " id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link smoothscroll" href="developer.php">About the Developer</a>
+        <a class="nav-link smoothscroll" href="developer.php">About The Developer</a>
       </li>
     </ul>
   </div>
-<?php } ?>
-</nav>
+  <?php } ?>
 
+</nav>
 <body>

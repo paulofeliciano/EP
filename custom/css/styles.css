@@ -76,6 +76,9 @@ div.desc {
   border-top: 2px dashed gainsboro;
   margin-top: 20px;
 }
+div.desc p {
+  min-height: 130px;
+}
 input,
 textarea {
   border: 1px solid transparent;

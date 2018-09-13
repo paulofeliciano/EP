@@ -7,8 +7,7 @@
   </p>
   <p align="center">
     You can also fill up the form below:
-
-
+    <!-- CONTACT FORM -->
     <form name="contactform" method="post" action="sections/contact-send.php">
       <div class="row">
         <div class="col-md-6">
@@ -23,7 +22,7 @@
       </div>
       </div>
     </form>
-
+    <!-- END CONTACT FORM -->
   </p>
 <div class="custom-divider"></div>
 </div>

@@ -3,12 +3,12 @@ error_reporting(0);
 
 if(isset($_POST['email'])) {
 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
+    // RECEIVER AND SUBJECT
     $email_to = "paulofeliciano.work@gmail.com";
     $email_subject = "Good day!";
 
     function died($error) {
-        // your error code can go here
+        // ERROR CODE
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
         echo "These errors appear below.<br /><br />";
         echo $error."<br /><br />";
@@ -16,8 +16,7 @@ if(isset($_POST['email'])) {
         die();
     }
 
-
-    // validation expected data exists
+    // VALIDATION
     if(!isset($_POST['first_name']) ||
         !isset($_POST['last_name']) ||
         !isset($_POST['email']) ||
@@ -71,15 +70,15 @@ if(isset($_POST['email'])) {
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
 
-// create email headers
+// EMAIL HEADERS
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 
 mail($email_to, $email_subject, $email_message, $headers);
 ?>
+<!-- SUCCESS -->
 <body style="background-image: linear-gradient(to right, #136a8a, #267871);">
-<!-- include your own success html here -->
 <p align="center" style="padding: 200px 100px; font-size: 5vh; color: #fff;">Thank you for contacting me. You will here from me soon.<br />
 (This might not work because the email form I created requires a mailserver. But this is just a sample.)
 </p>

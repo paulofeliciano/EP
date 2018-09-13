@@ -68,23 +68,23 @@ div > h2 {
 
 // GALLERY
 div.gallery {
-	  min-height: 360px;
-	  width: 100%;
-		padding: 20px;
-		border: 2px solid gainsboro;
+	min-height: 360px;
+	width: 100%;
+	padding: 20px;
+	border: 2px solid gainsboro;
     float: left;
-		border-top-left-radius: 25px;
-		border-bottom-right-radius: 25px;
-		transition-duration: 0.4s;
-		box-shadow: 2px 3px lighten(#1C717D, 65%);
-		margin: 25px 5px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	transition-duration: 0.4s;
+	box-shadow: 2px 3px lighten(#1C717D, 65%);
+	margin: 25px 5px;
 
 }
 
 div.gallery:hover {
-	  border: 2px solid @primary;
-		padding: 17px;
- 		cursor: pointer;
+	border: 2px solid @primary;
+	padding: 17px;
+	cursor: pointer;
 }
 
 div.gallery img {
@@ -95,31 +95,34 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
-		border-top: 2px dashed gainsboro;
-		margin-top: 20px;
+	border-top: 2px dashed gainsboro;
+	margin-top: 20px;
+	p {
+		min-height: 130px;
+	}
 }
 
 
 // CONTACT FORM
 input, textarea {
 	border: 1px solid transparent;
-  outline: none;
-  padding: 1em;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  display: block;
-  width: 100%;
-  margin-top: 1em;
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	outline: none;
+	padding: 1em;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	display: block;
+	width: 100%;
+	margin-top: 1em;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 	transition-duration: 0.4s;
 	resize: none
 }
 input:focus, textarea:focus {
 	outline: none;
-  border: 1px solid @primary;
+	border: 1px solid @primary;
 }
 .custom-button:hover {
 	transition-duration: 0.4s;
@@ -131,12 +134,12 @@ input:focus, textarea:focus {
 
 // ADJUST ANCHOR LINKS PADDING
 .adjust::before {
-  display: block;
-  content: " ";
-  margin-top: -80px;
-  height: 80px;
-  visibility: hidden;
-  pointer-events: none;
+	display: block;
+	content: " ";
+	margin-top: -80px;
+	height: 80px;
+	visibility: hidden;
+	pointer-events: none;
 }
 
 // LINKS CUSTOM STYLE
