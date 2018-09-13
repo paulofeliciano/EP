@@ -129,11 +129,29 @@ input:focus, textarea:focus {
 
 
 // ADJUST ANCHOR LINKS PADDING
-.adjust::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -80px; 
-  height: 80px; 
-  visibility: hidden; 
+.adjust::before {
+  display: block;
+  content: " ";
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
   pointer-events: none;
+}
+
+// LINKS CUSTOM STYLE
+.custom-button-links {
+	padding: 10px 20px;
+	border-radius: 15px;
+	color: @textcolor;
+	background-color: @primary;
+	cursor: pointer;
+	transition-duration: 0.4s;
+
+}
+.custom-button-links:hover {
+	text-decoration: none;
+	transition-duration: 0.4s;
+	color: @textcolor;
+	border-radius: 25px;
+	cursor: pointer;
 }

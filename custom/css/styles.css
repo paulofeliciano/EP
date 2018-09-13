@@ -112,3 +112,18 @@ textarea:focus {
   visibility: hidden;
   pointer-events: none;
 }
+.custom-button-links {
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #1c717d;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.custom-button-links:hover {
+  text-decoration: none;
+  transition-duration: 0.4s;
+  color: #ffffff;
+  border-radius: 25px;
+  cursor: pointer;
+}

@@ -1,6 +1,9 @@
 </body>
 <!-- FOOTER -->
 <footer>
+	<!-- <p align="center"><br />
+	  <img src="img/mcp.png" width="100vh">
+	</p> -->
 Social Links: &nbsp;
 <a href="https://linkedin.com/in/felicianopaulo"><i class="fab fa-linkedin"></i></a> |
 <a href="https://facebook.com/pawlopelisyano"><i class="fab fa-facebook"></i></a> |

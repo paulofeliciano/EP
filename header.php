@@ -10,7 +10,7 @@
   <meta name="keywords" content="paulo,feliciano,elevation,partners,hireme">
   <link rel="shortcut icon" type="image/png" href="http://example.com/favicon.png"/>
   <link rel="shortcut icon" href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . "/ep/img/favicon.ico" ?>">
- 
+
   <!--Vendors-->
   <link rel="stylesheet" href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . "/ep/vendors/css/bootstrap.min.css" ?>">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -26,16 +26,16 @@
 
   <!-- NAVIGATION BAR -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark custom-nav">
-  <a class="navbar-brand" href="#">PF</a>
+  <a class="navbar-brand" href="index.php">PF</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <!-- NAVBAR CONTENT -->
+  <?php
+  if (strpos($_SERVER['SCRIPT_NAME'], 'developer.php') !== false) {
+  ?>
   <div class="collapse navbar-collapse navbar-collapse collapse w-100 order-3 dual-collapse2 " id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
         <a class="nav-link smoothscroll" href="#about">About</a>
       </li>
@@ -51,6 +51,15 @@
 
     </ul>
   </div>
+<?php } else {  ?>
+  <div class="collapse navbar-collapse navbar-collapse collapse w-100 order-3 dual-collapse2 " id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link smoothscroll" href="developer.php">About the Developer</a>
+      </li>
+    </ul>
+  </div>
+<?php } ?>
 </nav>
 
 <body>
